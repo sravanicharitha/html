@@ -1,0 +1,5 @@
+.rainbow-td {
+	height:500px;
+  background-image: linear-gradient(rgb(238,130,238),#4B0082,rgba(83,51,237,1),#00FF00,rgb(255,255,0),orange,rgba(255,0,0,0.91));
+  background-repeat: no-repeat;
+}
