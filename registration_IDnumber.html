@@ -1,0 +1,142 @@
+<html>
+	<head>
+		<title>Registration Page</title>
+		<link rel="stylesheet" type="text/css" href="e.css">
+	</head>
+	<body style="background-color:yellow">
+		<center>
+		<h2 style="color:blue"><i>REGISTRATION FORM</i></h2>
+	</center>
+	<center>
+	    <div align="left">
+		<form action="details.html" method="get">
+			<label for="first name">Enter First Name:</label>
+			<input type="textarea" id="fname" name="name" placeholder="enter your first name" style="font-size:18px; align-content: left;"required><br><br>
+		<label for="last name">Enter Last Name:</label>
+		<input type="textarea" id="lname" name="name" placeholder="enter your last name" style="font-size:18px" ><br><br>
+			<fieldset>
+			<label for="gender">Gender:</label>
+			<input type="radio" id="male" name="gender">
+			<label for="male">M</label>
+			<input type="radio" id="female" name="gender">
+			<label for="female">F</label><br><br>
+			</fieldset><br>
+		<label for="dob">Dob:</label>
+		<input type="date" id="date" name="dob" required><br><br>
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" placeholder="enter age" min="1" max="100" style="font-size:18px" ><br><br>
+		<label for="Email Id">Email Id:</label>
+		<input type="email" id="mail" name="email" placeholder="enter your Mail Id" style="font-size:18px" required><br><br>
+		<label for="fav Color">Color:</label>
+		<input type="color" id="fcolor" name="color">
+		<label for="Phno">Ph No.:</label>
+		<input type="tel" id="phno" name="phno" pattern=[0-9]{10} placeholder="enter phno" style="font-size:18px" required maxlength="10" type="number"><br><br>
+			<label for="address">Address:</label>
+			<input type="textarea" id="addr" name="addr" placeholder="enter address" style="font-size:18px"><br><br>
+	   <label for="year">Year:</label>
+	   <select name="clg" id="clg">
+			<optgroup>
+				<optgroup label="RGUKT SKLM">
+				<option value="e"></option>
+				<option value="e1">E1</option>
+				<option value="e2">E2</option>
+				<option value="e3">E3</option>
+				<option value="e4">E4</option>
+			</optgroup>
+			<optgroup>
+				<optgroup label="RGUKT NUZVID">
+				<option value="e"></option>
+				<option value="e1">E1</option>
+				<option value="e2">E2</option>
+				<option value="e3">E3</option>
+				<option value="e4">E4</option>
+			</optgroup>
+			<optgroup>
+				<optgroup label="RGUKT ONGOLE">
+				<option value="e"></option>
+				<option value="e1">E1</option>
+				<option value="e2">E2</option>
+				<option value="e3">E3</option>
+				<option value="e4">E4</option>
+			</optgroup>
+			<optgroup>
+				<optgroup label="RGUKT RKVALLEY">
+				<option value="e"></option>
+				<option value="e1">E1</option>
+				<option value="e2">E2</option>
+				<option value="e3">E3</option>
+				<option value="e4">E4</option>
+			</optgroup>
+			</select><br><br>
+		<label for="fav sub">Subject:</label>
+			<input type="checkbox" id="sub" name="subj">
+			<label for="subj">C</label>
+			<input type="checkbox" id="sub" name="subj">
+			<label for="subj">JAVA</label>
+			<input type="checkbox" id="sub" name="subj">
+			<label for="subj">DBMS</label>
+			<input type="checkbox" id="sub" name="subj">
+			<label for="subj">WT</label>
+			<br><br></optgroup>
+			<label for="username">User Name:</label>
+			<input type="textarea" id="user" name="user" placeholder="enter user name" required style="font-size:18px"><br><br>
+		<label for="passw">Password:</label>
+			<input type="password" id="pwd" placeholder="enter password" required style="font-size:18px"><br><br>
+			<label for="passw">Confirm Password:</label>
+			<input type="password" id="conf-pwd" placeholder="confirm password" style="font-size:18px"required><br>
+			<br><label for="secq">Security quetions:</label>
+			<select name="secq" id="sq">
+				<option value="SQ"></option>
+				<option value="q1" disabled>what is ur fav subject?</option>
+				<option value="q2">what is your aim?</option>
+				<option value="q3">what is ur native place?</option>
+				<option value="q4">who is your role model?</option>
+				<option value="q5">do you think money is imp?</option>	
+			</select><br><br>
+			<label for="ans">Answers:</label>
+			<select>
+				<optgroup label="fav subj">
+				<option value="ans"></option>
+				<option value="ans1">C</option>
+				<option value="ans2">WT</option>
+				<option value="ans3">DBMS</option>
+				<option value="ans4">JAVA</option>
+				<option value="ans5">others</option>
+			</optgroup>
+				<optgroup label="aim">
+				<option value="ans1">doctor</option>
+				<option value="ans2">engineer</option>
+				<option value="ans3">teacher</option>
+				<option value="ans4">artist</option>
+				<option value="ans5">others</option>
+			</optgroup>
+			<optgroup label="place">
+				<option value="ans1">east godavari</option>
+				<option value="ans2">srikakulam</option>
+				<option value="ans3">vizag</option>
+				<option value="ans4">vijaywada</option>
+				<option value="ans5">others</option>
+			</optgroup>
+			<optgroup label="role model">
+				<option value="ans1">father</option>
+				<option value="ans2">mother</option>
+				<option value="ans3">teacher</option>
+				<option value="ans4">others</option>
+			</optgroup>
+			<optgroup label="money">
+				<option value="ans1">yes</option>
+				<option value="ans2">no</option>
+			</optgroup>
+			</select><br><br>
+			<label for="img">upload:</label>
+			<input type="file" id="img" name="img" accept="image/*" style="font-size:18px" required><br><br>
+		<button type="submit" value="submit" style="height:30px" width="200px">submit</button>
+			<button type="reset" value="reset" style="height:30px" width="300px">reset</button><br>
+		</form>
+	</tdbody>
+	</table>
+	</div>
+</center>
+
+	</body>
+</html>
