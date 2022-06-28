@@ -1,0 +1,52 @@
+div{
+	background-color: skyblue;
+	width:500px;
+}
+::-ms-check {
+    color: red;
+    background: black;
+}
+::-ms-browse {
+    background: black;
+    color: red;
+    padding: 1em;
+}
+a:link {
+  color: #FF0000;
+}
+a:visited {
+  color: #00FF00;
+}
+a:hover {
+  color: #FF00FF;
+}
+a:active {
+  color: #0000FF;
+}
+div:hover {
+  background-color:pink;
+}
+input:hover
+{
+	background-color:lightgreen;
+}
+a:link {
+  color:red;
+}
+a:visited {
+  color:blue;
+}
+a:hover {
+  color:pink;
+}
+a:active {
+  color:green;
+}
+button:hover
+{
+	color:red;
+}
+button
+{
+	background-color:silver;
+}
